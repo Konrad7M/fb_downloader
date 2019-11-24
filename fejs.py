@@ -6,7 +6,7 @@ Filestring = htmlfile.read()
 
 regfile = open("w","list.txt")
 
-pattern = "name lastname<//a> lubi: <a class=\"profileLink\" href=\"*data-hovercard-prefer-more-content-show=\"1\">*</a>"
+pattern = "name something lastname<//a> lubi: <a class=\"profileLink\" href=\"*data-hovercard-prefer-more-content-show=\"1\">*</a>"
 sztrink = re.finditer(pattern,Filestring)
 
 for i in sztrink.lengh():
